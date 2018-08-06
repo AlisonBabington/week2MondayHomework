@@ -10,14 +10,14 @@ class Student
     @fav_lang = fav_lang
   end
 
-  def student_name()
-    @name = name
-  end
-
-  def student_talk ()
-    return @talk
-  end
-
+  # def student_name()
+  #   @name = name
+  # end
+  #
+  # def student_talk ()
+  #   return @talk
+  # end
+  #
   def fav_lang ()
     return "I love #{@fav_lang}"
   end
